@@ -1,6 +1,6 @@
 <h3> Github Setup </h3>
 
-1. Downloaded git from https://git-scm.com/downloads 
+1. Downloaded git from [link](https://git-scm.com/downloads)
     - selected *download for windows* option 
 2. Created a **github** account 
 3. Learnt to make public repositories
