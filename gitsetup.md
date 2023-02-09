@@ -1,15 +1,15 @@
 <h3> Github Setup </h3>
 
-1. Downloaded git from [link](https://git-scm.com/downloads)
-    - selected *download for windows* option 
-2. Created a **github** account 
-3. Learnt to make public repositories
+1. Download git from [link](https://git-scm.com/downloads)
+    - select *download for windows* option 
+2. Creat a **github** account 
+3. Make public repositories
     - Repositories -> new -> create repository 
-    - selected *public repository* 
-    - added README markdown file 
-4. First public repository named *python playground*
-5. Second public repository named *my-notes*
-6. Made directory *internship* on the desktop and inside it made another directory named *repo*
-7. Learnt to clone repositories 
-    - In command line used a command **git clone <URL>**
-    - cloned both public repositories in *repo* folder
+    - select *public repository* 
+    - add README markdown file 
+4. First public repository name *python playground*
+5. Second public repository name *my-notes*
+6. Make directory *internship* on the desktop and inside it made another directory named *repo*
+7. Clone repositories 
+    - In command line use a command **git clone <URL>**
+    - clone both public repositories in *repo* folder
