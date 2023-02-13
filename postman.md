@@ -3,4 +3,4 @@
 1. Create an account on webpage or download postman for os 
 2. It supports all the common HTTP methods such as GET, POST, PUT, PATCH, DELETE, and others
 3. Create a collections for various APIs and set an envirnment accordingly 
-In APIs, you can set various variables like local, global, environment 
+In APIs, you can set various variables like local, global, environment, data, collection. 
