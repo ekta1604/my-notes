@@ -1,24 +1,15 @@
-<h1> Python request module and APIs </h1>
+# Python request module and APIs 
 
 ## Get data through an API##
-```
-r=requests.get('https://dog.ceo/api/breeds/list/all')
-```
+```r=requests.get('https://dog.ceo/api/breeds/list/all')```
 ### here, data can be get via URL API###
 
 ## Store data in json formate ##
-```
-dict=r.json()
-print(dict)
-
-```
+```dict=r.json() print(dict)```
 ### store data in dict variable and print data###
 
 ## Dataframe - Store data in rows and columns formate
-```
-df=pd.DataFrame(dict.keys())
-df
-```
+```df=pd.DataFrame(dict.keys())```
 ### store data in datafarme, get all keys and print them
 
 ## Fetch data in nested dictonary 
@@ -37,23 +28,16 @@ df = pd.DataFrame(rows,columns=["Breed names"])
 df
 ```
 ## Make csv file
-```
-df.to_csv("dog_list.csv",index=False)
-### index=False use to start index number from 1 
-```
+``` df.to_csv("dog_list.csv",index=False) ### index=False use to start index number from 1 ```
 
 ## Read csv file
-```
-df1=pd.read_csv("dog_list.csv") 
-```
+``` df1=pd.read_csv("dog_list.csv") ```
 ## Random number in pandas to use random.randint
 
 ## Get UTC time to use datetime.utcnow()
 
 ## To store image with time 
-```
-file_name = f"dog_{random_dog}_{date.strftime('%Y-%m-%d')}.jpg"
-```
+``` file_name = f"dog_{random_dog}_{date.strftime('%Y-%m-%d')}.jpg" ```
 ## Download, open and display image 
 ```
 import requests
@@ -70,10 +54,3 @@ img = Image.open(BytesIO(response.content))
 ### Display the image in the notebook
 display(img)
 ```
-
-
-
-
-
-
-
