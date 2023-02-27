@@ -1,12 +1,12 @@
 # Python request module and APIs 
 
-## Get data through an API##
+## Get data through an API
 ```r=requests.get('https://dog.ceo/api/breeds/list/all')```
-### here, data can be get via URL API###
+### here, data can be get via URL API
 
-## Store data in json formate ##
+## Store data in json formate 
 ```dict=r.json() print(dict)```
-### store data in dict variable and print data###
+### store data in dict variable and print data
 
 ## Dataframe - Store data in rows and columns formate
 ```df=pd.DataFrame(dict.keys())```
