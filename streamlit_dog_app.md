@@ -24,7 +24,7 @@
 # Create a function to get image URL
 # This function will generate response in bytes
 ```def get_dog_image(my_url: str)-> str:```
-    ``response = requests.get(my_url)```
+    ```response = requests.get(my_url)```
     ```print(response)``
     ```return response.content```
 ```image_bytes = get_dog_image(my_url)```
