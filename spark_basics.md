@@ -2,10 +2,10 @@
 
 #### History of Spark 
 
-2009 - Started as a project at UC Berkley **AMPLab**
-2010 - Open sourced under **BSD** license 
-2013 - Spark became an Apache top level Project
-2014 - Used by **Databricks** to sort large-scale datasets and set a new world record 
+- 2009 - Started as a project at UC Berkley **AMPLab**
+- 2010 - Open sourced under **BSD** license 
+- 2013 - Spark became an Apache top level Project
+- 2014 - Used by **Databricks** to sort large-scale datasets and set a new world record 
 
 #### What is Apache Spark 
 
